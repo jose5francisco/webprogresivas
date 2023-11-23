@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- licencia de font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- licencia de google fonts -->
+  <link rel="stylesheet" href="menu.css">
+
+  <!-- licencia para animacion       https://michalsnik.github.io/aos/ -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>INVASION DRONE</title>
+  <link rel="shortcut icon" href="logoINC.png">
+</head>
+
+<body>
+
+  <nav>
+    <!-- estructura del menu -->
+    <!-- <input type="checkbox" id="check2"> -->
+<a href="#" class="logo">INNOVA CODE</a>
+    <input type="checkbox" id="check">
+    <label for="check" class="menu" id="menuBtn">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+    <a href="#" class="enlace">
+      <img src="60X60.png" alt="" class="logo">
+    </a>
+    <ul>
+
+      <li><a href="#equipo">About us </a></li>
+      <li><a href="#ofrecemos">Game manual</a></li>
+      <li><a href="#" target="_blank">Download game</a></li>
+      <li><a href="#contacto">Contac</a></li>
+    </ul>
+  </nav>
+
+
+  
+
+
+  <!-- contenedor para el fondo -->
+  <section class="fondo1">
+    <h1 class="titulo">INVASION DRONE</h1>
+    <img src="COLLAGEGIMP.png" alt="">
+  </section>
+
+<script type="text/javascript">
+		window.addEventListener("scroll", function(){
+			var header = document.querySelector("nav");
+			header.classList.toggle("abajo",window.scrollY>0);
+		})
+	</script>
+
+  <!-- seccion equipo -->
+  <div id="equipo">
+
+    <h1 class="titulo2" data-aos="fade-down">ABOUT US</h1>
+    <p class="text" data-aos="fade-up">We are a small team of students formed by the Technological University of Santa Catatarina, 
+     passionate about video games who have decided to create their own world with a nostalgic retro RPG type
+     atmosphere where we will give them incredible characters and fun-filled adventures in Invasion Drone</p>
+
+
+    <div class="contenedor-flex">
+
+      <div class="integrantes" data-aos="fade-up-right">
+        <div class="foto">
+          <img src="jose.jpg" alt="integrante">
+        </div>
+        <div class="pie">
+          <p class="nombre"> Jose Elias Francisco Mar</p>
+          <p> <strong>Game Writer and Game designer:</strong> This is the person in charge of the story and narrative of the game.
+             also defines the game, from the objective to the fun. It also creates the Video Game Design Document is responsible for creating the maps.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="integrantes" data-aos="fade-left">
+        <div class="foto">
+          <img src="isra.jpg" alt="integrante">
+        </div>
+        <div class="pie">
+          <p class="nombre">Israel Rodriguez Lopez</p>
+          <p> <strong>Level designer, Quality control (QA):</strong>
+            Create the levels and missions of the video game. 
+            They are inspired by concept art and the game design document (GDD), 
+            to create a believable environment, establish the boundaries of the game, 
+            and maintain a style consistent with the game's objectives. Level design establishes the physical limitations of the world.
+            He is in charge of the quality of the game.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <footer class="pie-pagina" id="contacto">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="#">
+            <img src="logoID.png" alt="logo">
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>ABOUT US</h2>
+        <p>We are a small team of students formed by the Technological University of Santa Catatarina, 
+          passionate about video games who have decided to create their own world with a nostalgic retro RPG type 
+          atmosphere where we will give them incredible characters and fun-filled adventures in Invasion Drone</p>
+      </div>
+      <div class="box">
+        <h2>FOLLOW US</h2>
+        <div class="red-social">
+          <a href="https://www.facebook.com/gaming/IsraboomGameplays"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://wa.link/kb4iew"><i class="fa-brands fa-square-whatsapp"></i></a>
+          <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://www.youtube.com/@israelrodriguezlopez5019"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy; 2023 <b>INVASION DRONE - Monterrey, Nuevo Leon, Mexico</b></small>
+    </div>
+  </footer>
+
+  <!-- libreria javascript -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
